@@ -20,8 +20,7 @@ public class Main {
         lastName = "Иванов";
         middleName = "Cемёныч";
         fullName = lastName + " " + firstName + " " + middleName;
-        System.out.println(fullName);
-        fullName = fullName.replace("ё","е");
-        System.out.println(fullName);
+        fullName = fullName.replace("ё", "е");
+        System.out.println("Данные Ф.И.О. сотрудника - " + fullName);
     }
 }
